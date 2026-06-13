@@ -21,7 +21,7 @@ const plans = [
     ],
     cta: 'Commencer',
     ctaClass:
-      'bg-white/5 border border-white/15 hover:bg-white/10 text-white',
+      'bg-white/5 border border-white/[0.15] hover:bg-white/10 text-white',
   },
   {
     name: 'Pro',
@@ -63,7 +63,7 @@ const plans = [
     ],
     cta: 'Nous contacter',
     ctaClass:
-      'bg-white/5 border border-white/15 hover:bg-white/10 text-white',
+      'bg-white/5 border border-white/[0.15] hover:bg-white/10 text-white',
   },
 ]
 
@@ -145,7 +145,7 @@ export default function Pricing() {
               className={`relative flex flex-col p-7 sm:p-8 rounded-2xl border transition-all duration-300 ${
                 plan.highlight
                   ? 'border-violet-500/50 bg-gradient-to-b from-violet-900/25 to-blue-900/15'
-                  : 'border-white/8 bg-white/[0.02]'
+                  : 'border-white/[0.08] bg-white/[0.02]'
               }`}
             >
               {/* Popular badge */}
